@@ -1,6 +1,18 @@
 # Removal of Snow Distortion in Images Using Translation cGANs
 Final project for ELEC 825 Machine Learning/ Deep Learning. A research project into using cGANs to remove snow distortion from input images. 
 ## Abstract
+In this paper, we propose an alternative method for single image snow removal
+using a more general and less task specific architecture than most state of the art
+methods. The proposed architecture aims to learn a general transition map between
+two images and is commonly used for tasks like transforming an aerial view image
+to a map. Current state of the art architectures involve multiple layers of snow
+identification and other network structures specific to the snow removal task. Using
+a general transition map architecture allows for easier implementation and a wider
+field of applications. A general adversarial network (GAN) and more specifically a
+pix2pix GAN architecture trained on the Snow100K dataset was implemented to
+achieve this goal. This solution showed promising results with a peak signal-tonoise ratio (PSNR) of 23.2839 and a structural similarity index (SSIM) 0.7697 and
+warrants additional investigation to see the limit in its applicability to the task of
+removing snowfall in images.
 
 ## Contributions
 
